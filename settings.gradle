@@ -1,0 +1,8 @@
+rootProject.name = 'tmp-core'
+
+include 'domain'
+
+include 'api'
+
+include 'launcher'
+
