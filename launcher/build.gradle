@@ -10,6 +10,10 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+}
+
 dependencies {
     compile project(":api")
     compile("org.springframework.boot:spring-boot-starter-jetty:1.4.0.RELEASE")

@@ -10,7 +10,15 @@ repositories {
     mavenCentral()
 }
 
+configurations {
+    compile.exclude module: "spring-boot-starter-tomcat"
+    compile.exclude group: "org.slf4j", module: "slf4j-log4j12"
+}
+
+
+
 dependencies {
     compile 'org.axonframework:axon-mongo:2.4.3'
     compile("org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE")
+    compile group: 'org.apache.kafka', name: 'kafka_2.10', version: '0.9.0.1'
 }
