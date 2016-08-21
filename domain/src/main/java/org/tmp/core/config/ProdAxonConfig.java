@@ -42,7 +42,7 @@ public class ProdAxonConfig {
 
     @Bean
     public MongoTemplate defaultAxonMongoTemplate() throws Exception {
-        return new DefaultMongoTemplate(new Mongo("localhost", 27017), "tmp-core", "domainEvents",
+        return new DefaultMongoTemplate(new Mongo("51.255.48.55", 27017), "tmp-core", "domainEvents",
                 "snapshotEvents", "admin", "root", "root123".toCharArray());
     }
 
