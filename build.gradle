@@ -22,7 +22,7 @@ repositories {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
-mainClassName = "org.tmp.core.launcher.EmbeddedJetty"
+mainClassName = "org.tmp.core.launcher.Launcher"
 
 repositories {
     mavenCentral()
@@ -34,5 +34,5 @@ dependencies {
 }
 
 bootRepackage {
-    mainClass = 'org.tmp.core.launcher.EmbeddedJetty'
+    mainClass = 'org.tmp.core.launcher.Launcher'
 }
