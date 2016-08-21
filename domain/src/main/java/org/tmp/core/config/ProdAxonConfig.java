@@ -18,9 +18,7 @@ import org.tmp.core.test.TestAggregate;
 
 import java.util.concurrent.Executors;
 
-/**
- * Created by mf57 on 15.08.2016.
- */
+
 @Configuration
 @ImportResource("classpath:domain-config.xml")
 @ComponentScan("org.tmp")
