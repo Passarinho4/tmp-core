@@ -17,7 +17,7 @@ public class TestController {
     @Autowired
     private CommandBus commandBus;
 
-    @RequestMapping(value = "/api/tests", method = RequestMethod.POST)
+    @RequestMapping(value = "/api/tests", method = RequestMethod.GET)
     public void create(@RequestBody TestRequest body) {
         System.out.println("Jestem w controllerze");
         CreateTestCommand command = new CreateTestCommand(body.getName(), body.getMessage());
