@@ -25,7 +25,7 @@ import java.util.concurrent.Executors;
 @ImportResource("classpath:domain-config.xml")
 @ComponentScan("org.tmp")
 @Profile("development")
-public class DevAxonConfig {
+public class DevAxonConfig extends BaseConfig {
 
     @Bean
     public CommandBus commandBus() throws Exception {

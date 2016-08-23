@@ -23,7 +23,7 @@ import java.util.concurrent.Executors;
 @ImportResource("classpath:domain-config.xml")
 @ComponentScan("org.tmp")
 @Profile("production")
-public class ProdAxonConfig {
+public class ProdAxonConfig extends BaseConfig {
 
     @Bean
     public CommandBus commandBus() throws Exception {
