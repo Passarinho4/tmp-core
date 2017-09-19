@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_main.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api_test.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/domain.iml" group="domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/domain_main.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/domain_main.iml" group="domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/domain_test.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/domain_test.iml" group="domain" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/launcher.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/launcher.iml" group="launcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/launcher_main.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/launcher_main.iml" group="launcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/launcher/launcher_test.iml" filepath="$PROJECT_DIR$/.idea/modules/launcher/launcher_test.iml" group="launcher" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmp-core.iml" filepath="$PROJECT_DIR$/.idea/modules/tmp-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmp-core_main.iml" filepath="$PROJECT_DIR$/.idea/modules/tmp-core_main.iml" group="tmp-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tmp-core_test.iml" filepath="$PROJECT_DIR$/.idea/modules/tmp-core_test.iml" group="tmp-core" />
+    </modules>
+  </component>
+</project>
